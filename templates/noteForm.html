@@ -25,6 +25,7 @@
 		</div>
 		{% if note %}
 			<input type="hidden" name="noteId" value="{{ note['id'] }}">
+			<input type="hidden" name="created" value="{{ note['created'] }}">
 		{% endif %}
 		<div class="row mt-3">
 			<div class="d-flex justify-content-end col-xs-12 col-md-6 mx-auto">
